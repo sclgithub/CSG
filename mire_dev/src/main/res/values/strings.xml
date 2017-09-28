@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">红包助手</string>
+    <string name="service_description">开启以允许程序监控微信红包消息</string>
+    <string name="auto_click_message">自动点击红包消息</string>
+    <string name="auto_click_notification">自动点击红包通知</string>
+    <string name="auto_click_open">自动点击打开红包</string>
+    <string name="tips">需要关闭锁屏密码,并保证后台运行</string>
+    <string name="notice">提示!</string>
+    <string name="notice_content">服务未开启,是否开启?</string>
+    <string name="notice_action">去开启</string>
+    <string name="accessibility_stop">Accessibility服务未开启</string>
+    <string name="accessibility_running">Accessibility服务运行中</string>
+    <string name="auto_running">全自动运行</string>
+    <string name="running">半自动运行</string>
+    <string name="feedback">问题反馈</string>
+</resources>

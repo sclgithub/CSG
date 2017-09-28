@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSG.iml" filepath="$PROJECT_DIR$/CSG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mire_dev/mire_dev.iml" filepath="$PROJECT_DIR$/mire_dev/mire_dev.iml" />
+    </modules>
+  </component>
+</project>
