@@ -46,17 +46,17 @@ public class App extends Application {
         JPushInterface.init(this);
 
         // 我们可以从这里获得Tinker加载过程的信息
-        if (BuildConfig.TINKER_ENABLE) {
-            tinkerApplicationLike = TinkerPatchApplicationLike.getTinkerPatchApplicationLike();
-
-            // 初始化TinkerPatch SDK
-            TinkerPatch.init(tinkerApplicationLike)
-                    .reflectPatchLibrary()
-                    .setPatchRollbackOnScreenOff(true)
-                    .setPatchRestartOnSrceenOff(true);
-            // 获取当前的补丁版本
-            Log.d(TAG, "current patch version is " + TinkerPatch.with().getPatchVersion());
-        }
+//        if (BuildConfig.TINKER_ENABLE) {
+//            tinkerApplicationLike = TinkerPatchApplicationLike.getTinkerPatchApplicationLike();
+//
+//            // 初始化TinkerPatch SDK
+//            TinkerPatch.init(tinkerApplicationLike)
+//                    .reflectPatchLibrary()
+//                    .setPatchRollbackOnScreenOff(true)
+//                    .setPatchRestartOnSrceenOff(true);
+//            // 获取当前的补丁版本
+//            Log.d(TAG, "current patch version is " + TinkerPatch.with().getPatchVersion());
+//        }
     }
 
     public Context getContext() {

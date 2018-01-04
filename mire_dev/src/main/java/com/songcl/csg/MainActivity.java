@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     // To check if service is enabled
     private boolean isAccessibilitySettingsOn(Context mContext) {
         int accessibilityEnabled = 0;
-        final String service = getPackageName() + "/" + MyRedAccessibilityService.class.getCanonicalName();
+        final String service = getPackageName() + "/" + RedAccessibilityService.class.getCanonicalName();
         try {
             accessibilityEnabled = Settings.Secure.getInt(
                     mContext.getApplicationContext().getContentResolver(),

@@ -45,7 +45,7 @@
         </activity>
 
         <service
-            android:name=".MyRedAccessibilityService"
+            android:name=".RedAccessibilityService"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
